@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.orange {
+    color: orange;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding: 5%;
+    margin-top: 10%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+p {
+    margin-bottom: 80px;
+}
+
+.order-here {
+    text-decoration: none;
+    padding: 20px 40px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(orange, red);
+}
+
+.second img {
+    width: 47%;
+}
+
+.second {
+    display: flex;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+}
+
+.contact {
+    text-decoration: none;
+    padding: 20px 30px;
+    background-image: linear-gradient(rgb(219, 45, 152), rgba(248, 190, 135, 0.109));
+    border-radius: 15px;
+}
+
+.peragraph {
+    height: 300px;
+    width: 50%;
+    margin-left: 350px;
+    text-align: center;
+}
+
+.recipi {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recipi img {
+    width: 200px;
+    height: 150px;
+}
+
+.iteam {
+    border-radius: 20px;
+    flex-grow: 1;
+    margin: 0px 50px 50px 50px;
+    text-align: center;
+    box-shadow: 5px 10px 10px 10px rgb(235, 209, 209);
+}
+
+.iteam img {
+    margin-top: 10%;
+    border-radius: 20px;
+}
+
+.reponse {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    height: 150px;
+    width: 93%;
+    box-shadow: 1px 1px 2px 2px rgb(238, 222, 222);
+    margin-bottom: 80px;
+}
+
+.Footer {
+    height: 200px;
+    background-color: rgb(189, 175, 175);
+    margin-bottom: 50px;
+}
+
+.Footer h2 {
+    text-align: center;
+    padding: 80px;
+}
