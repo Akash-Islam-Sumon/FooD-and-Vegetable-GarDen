@@ -96,8 +96,14 @@
     .last_section {
         background-color: rgb(189, 175, 175);
         text-align: center;
+        height: 150px;
     }
     
     .last_section h2 {
         padding-top: 20px;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: rgba(231, 42, 190, 0.61);
     }
