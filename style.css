@@ -2,6 +2,31 @@
         font-family: 'Poppins', sans-serif;
     }
     
+    nav h3 {
+        color: rgb(207, 22, 201);
+        margin-left: 5%;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        list-style-type: none;
+        margin: 10px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: rgb(226, 99, 67)
+    }
+    
     .orange {
         color: orange;
     }
@@ -13,12 +38,13 @@
     
     .container {
         display: flex;
+        align-items: center;
     }
     
     .half-width {
         width: 50%;
         padding: 5%;
-        margin-top: 10%;
+        /* margin-top: 10%; */
     }
     
     .half-width {
@@ -69,6 +95,7 @@
     
     .iteam {
         width: 200px;
+        height: 500px;
         border-radius: 20px;
         flex-grow: 1;
         margin: 10px 50px 50px 50px;
@@ -94,9 +121,9 @@
     }
     
     .last_section {
+        height: 150px;
         background-color: rgb(189, 175, 175);
         text-align: center;
-        height: 150px;
     }
     
     .last_section h2 {
